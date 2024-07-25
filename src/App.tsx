@@ -1,7 +1,13 @@
+import Footer from "./components/layouts/Footer.tsx";
+import Navbar from "./components/layouts/Navbar.tsx";
+import Home from "./pages/Home/Home.tsx";
+
 function App() {
   return (
     <>
-      <h1 className="bg-blue-950 text-white">Hello World</h1>
+        <Navbar/>
+        <Home/>
+        <Footer/>
     </>
   )
 }
