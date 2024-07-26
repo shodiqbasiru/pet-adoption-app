@@ -7,13 +7,13 @@ import ShopSection from "./components/ShopSection.tsx";
 
 const Home = ():React.ReactElement => {
     return (
-        <div>
+        <>
             <HeroSection/>
             <ServiceSection/>
             <BannerSection/>
             <CategorySection/>
             <ShopSection/>
-        </div>
+        </>
     );
 };
 

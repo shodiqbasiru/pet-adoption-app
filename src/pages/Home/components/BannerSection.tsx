@@ -5,11 +5,11 @@ const BannerSection = ():React.ReactElement => {
         // <div className="flex flex-col items-center mx-auto mt-20 py-12 bg-gradient-to-tr  from-white from-50% to-primary-50">
         //     <img src="https://d.newsweek.com/en/full/1898130/dog-cat-under-sheet.jpg" alt="" className="w[400px] h-[300px] object-cover rounded-full"/>
         // </div>
-        <div className="relative bg-gray-100 min-h-64">
+        <div className="relative bg-gray-100 min-h-screen md:min-h-64">
             <img
                 src="https://d.newsweek.com/en/full/1898130/dog-cat-under-sheet.jpg"
                 alt="Happy pets waiting for adoption"
-                className="w-full h-80 object-cover brightness-75"
+                className="w-full h-screen md:h-80 object-cover brightness-75"
                 style={{ objectPosition: "50% 28%" }}
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white">
