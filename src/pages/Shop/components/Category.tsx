@@ -5,10 +5,13 @@ import {AiFillMedicineBox} from "react-icons/ai";
 import {GiClothes, GiClothespin} from "react-icons/gi";
 import {ICategory} from "../../../constant/interfaceCategory.ts";
 
-const Category = ({categories, setSelectedCategory}: {
+const Category = ({categories,selectedCategory, setSelectedCategory}: {
     categories: ICategory[],
+    selectedCategory: string | null,
     setSelectedCategory: (categoryId: string | null) => void
 }): React.ReactElement => {
+
+
     return (
         <>
             <h3 className="text-3xl font-medium">Category</h3>
@@ -16,7 +19,7 @@ const Category = ({categories, setSelectedCategory}: {
             {categories.map(category => (
                 <div
                     key={category.id}
-                    className={`flex items-center gap-4 cursor-pointer mb-4 hover:bg-orange-300 p-2 rounded-md`}
+                    className={`flex items-center gap-4 cursor-pointer mb-4 hover:bg-orange-300 p-2 rounded-md ${ selectedCategory === category.id ? 'bg-orange-300' : ''}`}
                     onClick={() => setSelectedCategory(category.id)}
                 >
                     {category.name === 'Pet' && <MdPets className="text-2xl text-primary-100"/>}

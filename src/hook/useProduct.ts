@@ -56,10 +56,13 @@ const useProduct = () => {
         fetchProducts();
     }, [setCategories, setProducts]);
 
+    const resetCategory = () => {
+        setSelectedCategory(null);
+    }
 
     return {
         data: { products: filterProducts, categories, viewMode, animating, selectedCategory},
-        method: { toggleViewMode, setSelectedCategory },
+        method: { toggleViewMode, setSelectedCategory,resetCategory },
     };
 };
 
