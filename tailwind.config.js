@@ -23,6 +23,7 @@ export default {
                 secondary: "#e17911",
             },
         },
+
     },
     plugins: [
         // eslint-disable-next-line no-undef

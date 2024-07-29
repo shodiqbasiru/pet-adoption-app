@@ -1,44 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@layer tailwind-base, primereact, tailwind-utilities;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import 'primereact/resources/themes/lara-light-indigo/theme.css'
+layer(primereact);
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
 
 @layer base{
-    html{
+    body{
         font-family: 'Poppins', sans-serif;
         background-color: #fefefe;
     }
+
+    .custom-prev, .custom-next {
+        @apply bg-primary-100 text-white text-5xl opacity-50 transition-all duration-300;
+    }
+
+    .custom-prev:hover, .custom-next:hover {
+        @apply opacity-100 transition-all duration-300;
+    }
+
+    /* Animation classes */
+    .fade-enter {
+        @apply opacity-100;
+    }
+
+    .fade-enter-active {
+        @apply opacity-100 transition-opacity duration-500;
+    }
+
+    .fade-exit {
+        @apply opacity-0;
+    }
+
+    .fade-exit-active {
+        @apply opacity-0 transition-opacity duration-500;
+    }
+
+    /* Transition container base style */
+    .transition-container {
+        @apply relative;
+    }
 }
 
-
-    /*!* Custom styles for Swiper *!*/
-    /*.swiper {*/
-    /*    padding: 0 60px !important;*/
-    /*    position: relative !important;*/
-    /*}*/
-
-    /*.swiper-container {*/
-    /*    @apply p-4 bg-gray-50 rounded-lg shadow-lg;*/
-    /*}*/
-
-    /*.swiper-button-next, .swiper-button-prev {*/
-    /*    @apply bg-primary-100 text-primary-500;*/
-    /*    position: absolute !important;*/
-    /*    top: 5% !important;*/
-    /*    height: 100% !important;*/
-    /*    width: 50px !important;*/
-    /*}*/
-
-    /*.swiper-button-next:hover, .swiper-button-prev:hover {*/
-    /*    @apply bg-primary-200;*/
-    /*}*/
-
-    /*.swiper-button-next {*/
-    /*    right: 0 !important;*/
-    /*}*/
-
-    /*.swiper-button-prev {*/
-    /*    left: 0 !important;*/
-    /*}*/
 

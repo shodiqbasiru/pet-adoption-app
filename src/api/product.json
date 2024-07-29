@@ -1,0 +1,456 @@
+{
+  "statusCode": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": 1,
+      "name": "Cat",
+      "store": "Pet Store A",
+      "price": 100000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/06/81/34/29/360_F_681342927_XnHKRjZBQpDB5lL3dUs1Wd6ZgKnIlJVC.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Dog",
+      "store": "Pet Store B",
+      "price": 200000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 3,
+      "name": "Bird",
+      "store": "Pet Store C",
+      "price": 300000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 4,
+      "name": "Fish",
+      "store": "Pet Store A",
+      "price": 400000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 5,
+      "name": "Rabbit",
+      "store": "Pet Store B",
+      "price": 500000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 6,
+      "name": "Hamster",
+      "store": "Pet Store D",
+      "price": 150000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/03/86/71/34/360_F_386713404_T6JszkD9bFvU3fs26kiS9B2ymmt5pniY.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 7,
+      "name": "Parrot",
+      "store": "Pet Store E",
+      "price": 250000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/01/00/54/15/360_F_100541505_zNImOZ98WSgr8X0wMmcwENNeOnCCjYnu.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 8,
+      "name": "Turtle",
+      "store": "Pet Store F",
+      "price": 350000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/01/06/67/94/360_F_106679414_Poe58CnzATNTV4bLREoxdYa3CF4d8dd3.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 9,
+      "name": "Guinea Pig",
+      "store": "Pet Store A",
+      "price": 120000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/02/48/81/43/360_F_248814309_CJ6ZqfU1n37J7zMoHBZsTxKHVoVtObAq.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 10,
+      "name": "Chinchilla",
+      "store": "Pet Store B",
+      "price": 300000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/03/02/95/83/360_F_302958380_4lyWz6ZQzGbvOaALq3pC0F1tCzFwPbpm.jpg",
+      "categoryId": "1"
+    },
+    {
+      "id": 11,
+      "name": "Cat Food",
+      "store": "Pet Store A",
+      "price": 10000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/06/81/34/29/360_F_681342927_XnHKRjZBQpDB5lL3dUs1Wd6ZgKnIlJVC.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 12,
+      "name": "Dog Food",
+      "store": "Pet Store B",
+      "price": 20000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 13,
+      "name": "Bird Food",
+      "store": "Pet Store C",
+      "price": 30000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 14,
+      "name": "Fish Food",
+      "store": "Pet Store A",
+      "price": 40000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 15,
+      "name": "Rabbit Food",
+      "store": "Pet Store B",
+      "price": 50000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/03/06/10/63/360_F_306106341_2sGZ8f7C4QzQ7Z9V9YVQ9uJ7jwXkX1QD.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 16,
+      "name": "Hamster Food",
+      "store": "Pet Store D",
+      "price": 12000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/01/06/67/94/360_F_106679414_Poe58CnzATNTV4bLREoxdYa3CF4d8dd3.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 17,
+      "name": "Parrot Food",
+      "store": "Pet Store E",
+      "price": 22000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/01/00/54/15/360_F_100541505_zNImOZ98WSgr8X0wMmcwENNeOnCCjYnu.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 18,
+      "name": "Turtle Food",
+      "store": "Pet Store F",
+      "price": 32000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/01/06/67/94/360_F_106679414_Poe58CnzATNTV4bLREoxdYa3CF4d8dd3.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 19,
+      "name": "Guinea Pig Food",
+      "store": "Pet Store A",
+      "price": 15000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/02/48/81/43/360_F_248814309_CJ6ZqfU1n37J7zMoHBZsTxKHVoVtObAq.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 20,
+      "name": "Chinchilla Food",
+      "store": "Pet Store B",
+      "price": 25000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/03/02/95/83/360_F_302958380_4lyWz6ZQzGbvOaALq3pC0F1tCzFwPbpm.jpg",
+      "categoryId": "2"
+    },
+    {
+      "id": 21,
+      "name": "Cat Collar",
+      "store": "Pet Store A",
+      "price": 30000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/02/96/90/36/360_F_296903629_TQtFf9sW7oTh03D51JAmC7F8LQ8vZ7xK.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 22,
+      "name": "Dog Leash",
+      "store": "Pet Store B",
+      "price": 50000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/03/36/81/57/360_F_336815759_tBhZ3e93J8R6lRvHABjJl9KUbNh3eZP3.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 23,
+      "name": "Bird Cage",
+      "store": "Pet Store C",
+      "price": 150000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/03/26/00/79/360_F_326007911_UkqGRo6GvXMIhG8H8zB6FJkJwN1tqv2b.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 24,
+      "name": "Fish Tank",
+      "store": "Pet Store A",
+      "price": 200000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/02/12/86/18/360_F_212861801_lk6PCEWfMzMKi3f4k8x4E7MeSu2Og0sU.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 25,
+      "name": "Rabbit Hutch",
+      "store": "Pet Store B",
+      "price": 180000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/02/19/56/44/360_F_219564418_Am5WWc6I1BuD7yrF2ydt0gVZ0jhh0Cwr.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 26,
+      "name": "Hamster Wheel",
+      "store": "Pet Store D",
+      "price": 40000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 27,
+      "name": "Parrot Stand",
+      "store": "Pet Store E",
+      "price": 60000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/02/81/65/89/360_F_281658934_F4OhhhHPY5fZGnLkzFHCdXZn2sTZoua3.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 28,
+      "name": "Turtle Aquarium",
+      "store": "Pet Store F",
+      "price": 250000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/02/92/01/62/360_F_292016250_T3HT28GUn4ndAkijxIn4GpZFcaaXk2S0.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 29,
+      "name": "Guinea Pig Bed",
+      "store": "Pet Store A",
+      "price": 50000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/02/86/70/33/360_F_286703309_A2AXLtRS9syUFP7BGFhBdQvCEyJ8KwYV.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 30,
+      "name": "Chinchilla House",
+      "store": "Pet Store B",
+      "price": 120000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "3"
+    },
+    {
+      "id": 31,
+      "name": "Cat Medicine",
+      "store": "Pet Store A",
+      "price": 50000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/02/81/65/89/360_F_281658934_F4OhhhHPY5fZGnLkzFHCdXZn2sTZoua3.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 32,
+      "name": "Dog Medicine",
+      "store": "Pet Store B",
+      "price": 60000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 33,
+      "name": "Bird Medicine",
+      "store": "Pet Store C",
+      "price": 70000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/02/81/65/89/360_F_281658934_F4OhhhHPY5fZGnLkzFHCdXZn2sTZoua3.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 34,
+      "name": "Fish Medicine",
+      "store": "Pet Store A",
+      "price": 80000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 35,
+      "name": "Rabbit Medicine",
+      "store": "Pet Store B",
+      "price": 90000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/02/81/65/89/360_F_281658934_F4OhhhHPY5fZGnLkzFHCdXZn2sTZoua3.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 36,
+      "name": "Hamster Medicine",
+      "store": "Pet Store D",
+      "price": 45000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 37,
+      "name": "Parrot Medicine",
+      "store": "Pet Store E",
+      "price": 55000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/02/81/65/89/360_F_281658934_F4OhhhHPY5fZGnLkzFHCdXZn2sTZoua3.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 38,
+      "name": "Turtle Medicine",
+      "store": "Pet Store F",
+      "price": 65000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 39,
+      "name": "Guinea Pig Medicine",
+      "store": "Pet Store A",
+      "price": 55000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/02/81/65/89/360_F_281658934_F4OhhhHPY5fZGnLkzFHCdXZn2sTZoua3.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 40,
+      "name": "Chinchilla Medicine",
+      "store": "Pet Store B",
+      "price": 65000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/03/52/61/45/360_F_352614561_0pD9mG9hH7tXJfYm7brV1Sp1a1H7EINJ.jpg",
+      "categoryId": "4"
+    },
+    {
+      "id": 41,
+      "name": "Cat Shirt",
+      "store": "Pet Store A",
+      "price": 20000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/03/36/81/57/360_F_336815759_tBhZ3e93J8R6lRvHABjJl9KUbNh3eZP3.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 42,
+      "name": "Dog Sweater",
+      "store": "Pet Store B",
+      "price": 30000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/02/96/90/36/360_F_296903629_TQtFf9sW7oTh03D51JAmC7F8LQ8vZ7xK.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 43,
+      "name": "Bird Coat",
+      "store": "Pet Store C",
+      "price": 25000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/03/26/00/79/360_F_326007911_UkqGRo6GvXMIhG8H8zB6FJkJwN1tqv2b.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 44,
+      "name": "Fish Costume",
+      "store": "Pet Store A",
+      "price": 35000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/02/92/01/62/360_F_292016250_T3HT28GUn4ndAkijxIn4GpZFcaaXk2S0.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 45,
+      "name": "Rabbit Dress",
+      "store": "Pet Store B",
+      "price": 28000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/03/26/00/79/360_F_326007911_UkqGRo6GvXMIhG8H8zB6FJkJwN1tqv2b.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 46,
+      "name": "Hamster Hoodie",
+      "store": "Pet Store D",
+      "price": 22000,
+      "rating": 4,
+      "url": "https://t4.ftcdn.net/jpg/03/36/81/57/360_F_336815759_tBhZ3e93J8R6lRvHABjJl9KUbNh3eZP3.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 47,
+      "name": "Parrot Jacket",
+      "store": "Pet Store E",
+      "price": 27000,
+      "rating": 5,
+      "url": "https://t4.ftcdn.net/jpg/02/96/90/36/360_F_296903629_TQtFf9sW7oTh03D51JAmC7F8LQ8vZ7xK.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 48,
+      "name": "Turtle Shell Cover",
+      "store": "Pet Store F",
+      "price": 33000,
+      "rating": 3,
+      "url": "https://t4.ftcdn.net/jpg/02/92/01/62/360_F_292016250_T3HT28GUn4ndAkijxIn4GpZFcaaXk2S0.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 49,
+      "name": "Guinea Pig Hat",
+      "store": "Pet Store A",
+      "price": 18000,
+      "rating": 2,
+      "url": "https://t4.ftcdn.net/jpg/03/26/00/79/360_F_326007911_UkqGRo6GvXMIhG8H8zB6FJkJwN1tqv2b.jpg",
+      "categoryId": "5"
+    },
+    {
+      "id": 50,
+      "name": "Chinchilla Cap",
+      "store": "Pet Store B",
+      "price": 26000,
+      "rating": 1,
+      "url": "https://t4.ftcdn.net/jpg/02/92/01/62/360_F_292016250_T3HT28GUn4ndAkijxIn4GpZFcaaXk2S0.jpg",
+      "categoryId": "5"
+    }
+  ]
+}

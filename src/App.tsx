@@ -1,13 +1,11 @@
-import Footer from "./components/layouts/Footer.tsx";
-import Navbar from "./components/layouts/Navbar.tsx";
-import Home from "./pages/Home/Home.tsx";
+import {RouterProvider} from "react-router-dom";
+import router from "./routes/routes.tsx";
+import React from "react";
 
-function App() {
+function App():React.ReactElement {
   return (
     <>
-        <Navbar/>
-        <Home/>
-        <Footer/>
+        <RouterProvider router={router} />
     </>
   )
 }

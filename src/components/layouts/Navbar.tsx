@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { VscAccount } from "react-icons/vsc";
 import { FaShoppingCart } from "react-icons/fa";
+import {NavLink} from "react-router-dom";
 
 const Navbar = (): React.ReactElement => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -51,25 +52,25 @@ const Navbar = (): React.ReactElement => {
                      id="navbar-sticky">
                     <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 md:flex-row md:mt-0 bg-orange-300 md:bg-transparent">
                         <li>
-                            <a href="#"
+                            <NavLink to="/"
                                className="block py-2 px-3 text-white bg-primary-100 rounded md:rounded-none md:bg-transparent md:text-primary-100 md:border-b-primary-100 md:border-b md:p-0"
-                               aria-current="page">Home</a>
+                               aria-current="page">Home</NavLink>
                         </li>
                         <li>
-                            <a href="#"
-                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Shop</a>
+                            <NavLink to="/shop"
+                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Shop</NavLink>
                         </li>
                         <li>
-                            <a href="#"
-                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Services</a>
+                            <NavLink to="/service"
+                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Services</NavLink>
                         </li>
                         <li>
-                            <a href="#"
-                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Contact</a>
+                            <NavLink to="/about"
+                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">About</NavLink>
                         </li>
                         <li>
-                            <a href="#"
-                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Contact</a>
+                            <NavLink to="/contact"
+                               className="block py-2 px-3 text-gray-900 rounded md:rounded-none hover:bg-primary-50 md:hover:bg-transparent md:hover:text-primary-100 md:hover:border-b-primary-100 md:hover:border-b md:p-0">Contact</NavLink>
                         </li>
                     </ul>
                 </div>

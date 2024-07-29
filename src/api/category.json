@@ -1,0 +1,31 @@
+{
+  "statusCode": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": "1",
+      "name": "Pet",
+      "url": "https://images.unsplash.com/photo-1518791841217-8f162f1e113f"
+    },
+    {
+      "id": "2",
+      "name": "Food",
+      "url": "https://images.unsplash.com/photo-1518791841217-8f162f1e113f"
+    },
+    {
+      "id": "3",
+      "name": "Accessories",
+      "url": "https://images.unsplash.com/photo-1518791841217-8f162f1e113f"
+    },
+    {
+      "id": "4",
+      "name": "Medicine",
+      "url": "https://images.unsplash.com/photo-1518791841217-8f162f1e113f"
+    },
+    {
+      "id": "5",
+      "name": "Clothes",
+      "url": "https://images.unsplash.com/photo-1518791841217-8f162f1e113f"
+    }
+  ]
+}
